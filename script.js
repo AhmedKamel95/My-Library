@@ -45,6 +45,7 @@ function newElement() {
     deleteThisElement[i].onclick = function() {
       var div = this.parentElement;
       div.remove();
+      counterFunction();
     };
   }
   counterFunction();
